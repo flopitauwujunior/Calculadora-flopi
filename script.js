@@ -32,7 +32,7 @@ function renderRamos() {
     h2.textContent = ramo.nombre;
 
     const eliminar = document.createElement("span");
-    eliminar.textContent = "🗑️";
+    eliminar.textContent = "🌸";
     eliminar.className = "eliminar-ramo";
     eliminar.onclick = () => {
       ramos.splice(index, 1);
